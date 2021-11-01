@@ -44,7 +44,7 @@ public class Kcustom {
    
    @Column(name = "price")
    private String price;
-
+ 
    public Kcustom() {
    }
 

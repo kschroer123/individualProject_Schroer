@@ -28,7 +28,7 @@ public class MyServletHibernateDB extends HttpServlet {
       
       // #2
       retrieveDisplayData(response.getWriter());
-   }
+   } 
 
    void retrieveDisplayData(PrintWriter out) {
       String title = "Database Result";

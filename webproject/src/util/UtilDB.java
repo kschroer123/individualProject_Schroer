@@ -82,7 +82,7 @@ public class UtilDB {
             tx.rollback();
          e.printStackTrace();
       } finally {
-         session.close();
+         session.close(); 
       }
       return resultList;
    }
